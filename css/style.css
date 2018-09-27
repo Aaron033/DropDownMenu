@@ -15,3 +15,33 @@ html{
     position: relative; 
     
 }
+
+body{
+    height: 100%; 
+    background: #ddd; 
+    
+}
+
+h2{
+    padding: 50px; 
+    background: #112233; 
+    color: #f0f1f5;
+    font-family: big john;
+    text-align: center; 
+    font-size: 30pt; 
+    letter-spacing: 15px;
+    
+}
+
+.navigationDesktop{
+    background: #B0E2FF; 
+    
+}
+nav {
+    height: 40px; 
+    width: 560px; 
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+    text-transform: uppercase; 
+}
