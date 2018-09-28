@@ -34,7 +34,7 @@ h2{
 }
 
 .navigationDesktop{
-    background: #B0E2FF; 
+    background:  #fc575e; 
     
 }
 nav {
@@ -77,6 +77,9 @@ nav ul lu li {
     position: relative; 
     display: none; 
 }
+nav ul ul ul {
+    display: none; 
+}
 
 nav ul lu:hover ul li{
     display: block; 
@@ -95,3 +98,34 @@ nav ul lu:hover ul li{
         
     }
 }
+
+nav ul ul li:hover ul{
+    display: block; 
+    position: absolute; 
+    width: 140px; 
+    left: 140px; 
+    top: 0px; 
+    
+}
+
+article {
+    padding: 10px; 
+    font-family: arial;
+    line-height: 40px;
+    
+}
+footer{
+    border-top: 2px solid #fc5753;
+    position: absolute; 
+    bottom: 0px; 
+    padding: 20px; 
+    width: 100%;
+    text-align: center;
+    background: #112233; 
+    color: #fff; 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: 11pt;
+    text-transform: uppercase;
+}
+
