@@ -3,14 +3,11 @@
 	margin:0;
 	box-sizing:border-box;
 }
-body{
-	display: flex;
-	flex-direction: column;
-}
+
 .wrapper{
-	height:100%;
+min-height: 100%;
 	width:100%;
-	
+
 }
 
 body{
@@ -105,18 +102,16 @@ article{
 	position: relative;
 	padding:10px;
 	font-family: arial;
-	overflow: hidden !important;
+
 
 
 
 }
 
 footer{
- 
+	position: absolute;
+bottom: 0;
 	border-top:2px solid #fc575e;
-	/* margin-top: -100px; */
-
-	bottom: 0;
 
 	padding:20px;
 	width: 100%;
