@@ -102,6 +102,7 @@ nav ul ul li:hover ul{
 }
 
 article{
+	position: relative;
 	padding:10px;
 	font-family: arial;
 	line-height: 40px;
@@ -110,7 +111,7 @@ article{
 footer{
 	border-top:2px solid #fc575e;
 	position: absolute;
-	bottom:0px;
+	bottom:0;
 	padding:20px;
 	width: 100%;
 	text-align: center;
