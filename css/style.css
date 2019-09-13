@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-min-height: 100%;
+min-height: calc(100vh - 70px);
 	width:100%;
 
 }
@@ -33,7 +33,6 @@ h2{
 nav {
 	height:40px;
 	width:560px; 
-	display:block;
 	margin:0 auto;
 	text-align: center;
 	text-transform: uppercase;
@@ -66,7 +65,7 @@ nav ul li{
 }
 
 nav ul ul li{
-	position:relative;
+
 	display:none;
 }
 
@@ -109,10 +108,8 @@ article{
 }
 
 footer{
-	position: absolute;
-bottom: 0;
+height: 70px;
 	border-top:2px solid #fc575e;
-
 	padding:20px;
 	width: 100%;
 	text-align: center;
